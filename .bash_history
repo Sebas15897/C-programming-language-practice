@@ -460,3 +460,392 @@ cd
 logut
 exit
 logout
+ls
+clear
+ls
+echo *
+pwd
+echo *
+ls
+echo D*
+echo *S
+echo *s
+echo [[:upper:]]*
+echo /usr/*/share
+echo ~
+echo ~foo
+ls
+echo $((2 + 2))
+echo $((2 x 2))
+echo $((2 * 2))
+echo $(($((5**2)) * 3))
+echo Front-{A,B,C}-Back
+echo {Z..A}
+echo {a..z}
+echo $USER
+printenv | less
+echo $SUER
+echo $(ls)
+ls -l $(which cp)
+file $(ls /usr/bin/* | grep bin/zip)
+echo this is a     test
+this is a test
+[me@linuxbox ~]$ echo The total is $100.00
+echo "$USER $((2+2)) $(cal)"
+cal
+date
+cal
+echo "The balance for user $USER is: \$5.00"
+echo "The balance for user $USER is: \$5.000000"
+ls -l \ --reverse \ --human-legible \ --en tiempo completo
+\a
+\\
+\F
+\a a
+echo -e "Inserting several blank lines\n\n\n"
+echo -e "Words\tseparated\tby\thorizontal\ttabs."
+DEL C:\WIN2K\LEGACY_OS.EXE
+printenv
+diff set.sorted  printenv.sorted | grep "<" | awk '{imprimir $ 2}'
+prompt>  exportar 1number = 1
+MYVAR1 = "2"
+HOGAR
+cd
+cd HOGAR
+CD HOME
+cd HOME
+cd home
+cd mail
+mail
+home
+mail
+cd home
+mail 
+--login
+echo "hello $USER"
+echo "hello $USER*"
+echo "hello $USER"
+ls
+mkdir 0x03-shell_variables_expansions
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs README.md
+ls
+emacs 0-alias
+ls
+rmdir #0-alias#
+ls
+emacs 0-alias
+ls
+emacs 0-alias
+ls
+chmod u+x 0-alias
+ls
+wc -l 0-alias
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs 1-hello_you
+ls
+chmod u+x 1-hello_you
+ls
+wc -l 1-hello_you
+cd
+ls
+cd 0x03-shell_variables_expansions
+emacs 2-path
+ls
+emacs 2-path
+ls
+rm 2-path~
+chmod u+x 2-path
+wc -l 2-path
+emacs 2-path
+wc -l 2-path
+cd
+git
+git status
+git add -A
+git status -m "firstcommit"
+git commit -m "firstcommit"
+git push -origin master
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs 3-paths
+ls
+chmod u+x 3-paths
+ls
+cd
+git add -A
+ls
+echo $PATH | tr ":" "\n" | wc -l
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+ls
+rm 2-path~
+ls
+emacs 4-global_variables
+ls
+chmod u+x printenv
+chmod u+x 4-global_variables
+ls
+cd
+git add -A
+git commit "firstcommit"
+git commit -m "firstcommit"
+push -u origin master
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs 5-local_variables
+ls
+chmod u+x 5-local_variables
+ls
+wc -l 5-local_variables
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+ñs
+ls
+emacs 6-create_local_variable
+ls
+chmod u+x 6-create_local_variable
+ls
+cd
+ls
+cd 0x03-shell_variables_expansions
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+emacs 7-create_global_variable
+ls
+chmod u+x 7-create_global_variable
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs 8-true_knowledge
+ls
+cd
+ls
+cd 0x03-shell_variables_expansions
+ls
+chmod u+x 8-true_knowledge
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+ls
+9-divide_and_rule
+ls
+emacs 9-divide_and_rule
+ls
+chmod u+x 9-divide_and_rule
+ls
+cd
+git add -A
+ls
+git commit -m "firtscommit" 
+git push -u origin master
+ls
+cd
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs 9-divide_and_rule
+cd
+git add -A
+ls
+git commit -m "firstcommit"
+ls
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs 9-divide_and_rule
+ls
+cd
+git add -a
+git add -A
+ls
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs 9-divide_and_rule
+ls
+emacs 9-divide_and_rule
+ls
+wc -9-divide_and_rule
+wc -l 9-divide_and_rule
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs 10-love_exponent_breath
+ls
+chmod u+x 10-love_exponent_breath
+ls
+cd
+git add -A
+git commit -m "first commit"
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs 11-binary_to_decimal
+ls
+chmod u+x 11-binary_to_decimal
+ls
+cd
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs 11-binary_to_decimal
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+ls
+rm 11-binary_to_decimal~
+ls
+wc -l 11-binary_to_decimal
+emacs 11-binary_to_decimal
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd  0x03-shell_variables_expansions
+ls
+emacs 12-combinations
+ls
+chmod u+x 12-combinations
+ls
+wc -l 12-combinations
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs 13-print_float
+ls
+emacs 14-decimal_to_hexadecimal
+ls
+chmod u+x 13-print_float
+ls
+chmod 14-decimal_to_hexadecimal
+chmod u+x 14-decimal_to_hexadecimal
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls *.c
+ls
+cd 0x03-shell_variables_expansions
+ls
+ls *.c 6-create_local_variable
+cd
+ls *c
+ls
+cd
+mkdir LinkedLn
+ls
+cd LinkedLn
+ls
+touch prueba.c
+touch Prueba.c
+touch prueba2.c
+touch prueba3.c
+touch prueba4.b
+tocuh prueba5.b
+touch prueba.b
+ls
+prueba5.a
+touch prueba6.a
+ls
+clear
+ls
+ls *.c
+ls
+cd
+ls
+rmdir -r #!/bin/bash
+printf "%.2f\n" $NUM
+cleart
+clear
+ls
+rmdir -r LinkedLn
+ls
+rm LinkedLn
+rmdir LinkedLn
+rm -r LinkedLn
+ls
+clear
+ls
+cd 0x03-shell_variables_expansions
+ls
+emacs 13-print_float
+ls
+wc -l 13-print_float
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+exit
+logout
+help
+ls -la 
+ls -la A
+ls -la B
+ls -la C
+ls -la /
+ls
+ls -la R
+ls -la -R
+cd
+ls
+ls -la -R
+cd
+ls
+echo 0x02-shell_redirections
+echo , 0x02-shell_redirections
+ls -la
+exit
