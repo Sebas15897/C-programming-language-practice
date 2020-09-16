@@ -1,0 +1,1 @@
+For this project we started using the programming language c 
