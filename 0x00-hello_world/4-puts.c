@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <string.h>
 /**
- *main - prints the method
+ *main - Prints the method
  *
- *Return: 0
+ *Return: Always 0
  */
 int main(void)
 {
