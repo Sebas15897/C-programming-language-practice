@@ -1,15 +1,11 @@
 #include <stdio.h>
-#include <string.h>
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
-  char str1[52];
-  strcpy(str1, ""Programming is like building a multilingual puzzle");
-puts(str1);
-
-return (0);
-} 
+  printf("with proper grammar, but the outcome is a piece of art,\n");
+        return 0;
+}
