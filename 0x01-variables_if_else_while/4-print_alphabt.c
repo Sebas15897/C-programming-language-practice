@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Return: Alphabet without q and e
+ * Return: Always 0 (Success)
  */
 
 
