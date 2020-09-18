@@ -849,3 +849,446 @@ echo 0x02-shell_redirections
 echo , 0x02-shell_redirections
 ls -la
 exit
+ls
+git init
+ls
+git clone https://github.com/holbertonschool/Betty.git
+ls
+cd Betty
+ls
+sudo ./install.sh
+emacs betty
+ls
+chmod a+x betty
+ls
+sudo mv betty /bin
+ls
+cd
+ls
+cd /bin
+ls
+cd
+echo "# holbertonschool-low_level_programming" >> README.md
+git init
+git remote add origin https://github.com/Sebas15897/holbertonschool-low_level_programming.git
+git remote -v
+git remote remove origin 
+ls
+git remote -v
+ls
+git remote -v
+ls
+cd
+git remote add origin https://github.com/Sebas15897/holbertonschool-low_level_programming.git
+ls
+git remote -v
+cd
+ls
+clear
+ls
+mkdir 0x00-hello_world
+ls
+cd 0x00-hello_world
+ls
+emacs 0-preprocessor
+ls
+chmod u+x 0-preprocessor
+ls
+cd
+git add -A
+ls
+git commit -m "firstcommit"
+ls
+git push -u origin master
+emacs README.md
+ls
+git remote remove origin
+ls
+git remote add origin https://github.com/Sebas15897/holbertonschool-low_level_programming.git
+ls
+cd
+clear
+ls
+git add 0x00-hello_world
+ls
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+wc -l 0-preprocessor
+ls
+emacs README.md
+ls
+c
+cd
+git add -A
+git commit -m "firstcommit" 
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 1-compiler
+ls
+chmod u+x 1-compiler
+ls
+cd
+git add -A
+git commit -m "secondcommit"
+ls
+cd 0x00-hello_world
+ls
+emacs 1-compiler
+ls
+wc -l 1-compiler
+cd
+ls
+git add -A
+git commit -m "secondcommit" 
+c
+ls
+cd 0x00-hello_world
+ls
+emacs 1-compiler
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+cd
+ls
+cd 0x00-hello_world
+ls
+wc -l 1-compiler
+ls
+emacs 1-compiler
+ls
+wc -l 1-compiler
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 1-compiler
+ls
+wc -l 1-compiler
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 2-assembler
+ls
+chmod u+x 2-assembler
+ls
+wc -l 2-assembler
+cd
+git add -A
+git commit -m "firstcommit" 
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 1-compiler
+ls
+emacs 2-assembler
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 1-compiler
+ls
+emacs 2-assembler
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 0-preprocessor
+ls
+wc -l 1-compiler
+ls
+emacs 1-compiler
+ls
+emacs 0-preprocessor
+ls
+cd
+git add -A
+git commit -m "firstcommit" 
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 2-assembler
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 2-assembler
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 3-name
+ls
+chmod u+x 3-name
+ls
+wc -l 3-name
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 4-puts.c
+ls
+chmod u+x 4-puts.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emcas 4-puts.c
+emacs 4-puts.c
+ls
+cd
+git add -A
+git add commit -m "firstcommit"
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 4-puts.c
+ls
+emacs 4-puts.c
+ls
+emacs 4-puts.c
+ls
+cd
+git add -A
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 4-puts.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 4-puts.c
+ls
+emacs 5-printf.c
+ls
+emacs 4-puts.c
+ls
+emacs 5-printf.c
+ls
+rm 5-printf.c~
+ls
+chmod u+x 5-printf.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 4-puts.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 5-printf.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 5-printf.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 4-puts.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 4-puts.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 5-printf.c
+emacs #include <stdio.h>
+emacs 5-printf.c
+ls
+cd
+git add -A 
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 5-printf.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u orign master
+git -u origin master
+clear
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+l
+ls
+emacs 5-printf.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+clear
+git status
+git remote -v
+cd
+git add remote origin https://github.com/Sebas15897/holbertonschool-low_level_programming.git
+git add origin https://github.com/Sebas15897/holbertonschool-low_level_programming.git
+cleart
+clear
+ls
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git remote romote origin
+git remote remove origin
+ls
+clear
+git remote add origin https://github.com/Sebas15897/holbertonschool-low_level_programming.git
+ls
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+cd 0x00-hello_world
+ls
+emacs 5-printf.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+cd 0x00-hello_world
+ls
+wc -l 5-printf.c
+ls
+emacs 5-printf.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+cd 0x00-hello_world
+ls
+emacs 5-printf.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin mster
+git push -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 4-puts.c
+emacs 5-printf.c
+emacs 4-puts.c
+emacs 5-printf.c
+emacs 6-size.c
+ls
+chmod u+x 6-size.c
+ls
+c
+cd
+git add -A
+git commit -m "firstcommit"
+git add -u origin master
+ls
+cd 0x00-hello_world
+ls
+emacs 6-size.c
+ls
+cd
+ls
+cd 0x00-hello_world
+ls
+emacs 6-size.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+exit
+logout
