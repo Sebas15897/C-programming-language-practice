@@ -1,21 +1,33 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Alphabet without q and e
  */
+
+
 int main(void)
 {
-char a;
+char c = 'a';
 
-for (a = 'a'; a <= 'z'; a++)
+while (c <= 'z')
 {
-if (a != 'q' && a != 'e')
+
+if (c == 'e' || c == 'q')
 {
-putchar(a);
+c++;
 }
-}
+
+putchar(c);
+c++;
+
+if (c > 'z')
+{
 putchar('\n');
+}
+}
 
 return (0);
 }
