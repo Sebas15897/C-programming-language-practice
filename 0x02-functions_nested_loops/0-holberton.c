@@ -1,20 +1,8 @@
-#include <holberton.h>
-/**
- * main - Print Holberton
- *
- * Return: Always 0 (Success)
- */
-int main (void){
+#ifndef _holberton_h_
+#define _holberton_h_
 
-_putchar ('H');
-_putchar ('o');
-_putchar ('l');
-_putchar ('b');
-_putchar ('e');
-_putchar ('r');
-_putchar ('t');
-_putchar ('o');
-_putchar ('n');
-_putchar ('\n');
-return (0);
-}
+int _putchar(char);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+
+#endif
