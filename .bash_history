@@ -1292,3 +1292,250 @@ git commit -m "firstcommit"
 git push -u origin master
 exit
 logout
+ls
+mkdir 0x01-variables_if_else_while
+ls
+cd 0x01-variables_if_else_while
+emacs 0-positive_or_negative.c
+ls
+chmod u+x 0-positive_or_negative.c
+ls
+cd
+git add -A
+git commit -m "firstcommit" 
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 0-positive_or_negative.c
+ls
+emacs README.md
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 0-positive_or_negative.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+cd 0-positive_or_negative.c
+emacs 0-positive_or_negative.c
+ls
+cd
+git add -A 
+git commit -m "firtscommit"
+git push origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 0-positive_or_negative.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 0-positive_or_negative.c
+ls
+emacs 0-positive_or_negative.c
+cd
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 1-last_digit.c
+ls
+chmod u+x 1-last_digit.c
+ls
+cd
+git add -A
+git commit -m "firstcommit" 
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 1-last_digit.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 1-last_digit.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 0-positive_or_negative.c
+ls
+emacs 2-print_alphabet.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git origin -u origin master
+ks
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 2-print_alphabet.c
+ks
+ls
+cd
+ls
+cd 0x01-variables_if_else_while
+ls
+chmod u+x 2-print_alphabet.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 3-print_alphabets.c
+ls
+cd
+ls
+cd 0x01-variables_if_else_while
+ls
+chmod u+x 3-print_alphabets.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 4-print_alphabt.c
+ls
+cd
+ls
+cd 0x01-variables_if_else_while
+ls
+chmod u+x 4-print_alphabt.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 4-print_alphabt.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+clear
+ls
+cd 0x01-variables_if_else_while
+ls
+rm 4-print_alphabt.c
+ls
+emacs 4-print_alphabt.c
+ls
+chmod u+x 4-print_alphabt.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 4-print_alphabt.c
+cd
+ls
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 4-print_alphabt.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 5-print_numbers.c
+ls
+chmod u+x 5-print_numbers.c
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 6-print_numberz.c
+ls
+cd
+ls
+cd 0x01-variables_if_else_while
+ls
+chmod u+x 6-print_numberz.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 7-print_tebahpla.c
+ls
+chmod u+x 7-print_tebahpla.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git add -u origin master
+git push -u origin master 
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 8-print_base16.c
+chmod #include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+/**
+int main(void)
+{ char ch; for (ch = '0'; ch <= '9'; ch++)
+putchar(ch);
+for (ch = 'a'; ch <= 'f'; ch++)
+putchar(ch);
+putchar('\n');
+return (0);
+}
+ls
+chmod u+x 8-print_base16.c
+ls
+cd
+git add -A
+git push -m origin master
+git commit -m "firstcommit"
+git push -u origin master
+exit
+logout
