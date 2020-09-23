@@ -1539,3 +1539,81 @@ git commit -m "firstcommit"
 git push -u origin master
 exit
 logout
+ls
+cd 0x02-functions_nested_loops
+mkdir 0x02-functions_nested_loops
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 0-holberton.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 0-holberton.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin masteer
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emcas README.md
+emacs README.md
+ls
+emacs README.md
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 0-holberton.c
+ls
+cd
+git add -A
+git commit -m origin master
+git commit -m "firstcommit"
+git push -u origin master
+betty-style.pl
+ls
+cd 0x02-functions_nested_loops
+ls
+betty-style.pl 0-holberton.c
+ls
+emacs 0-holberton.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 0-holberton.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+chmod u+x 0-holberton.c
+ls
+betty-style.pl
+clear
+ls
+cd
+ls
+clear
+ls
+exit
