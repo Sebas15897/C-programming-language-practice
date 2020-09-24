@@ -1935,3 +1935,25 @@ cd
 ls
 exit
 logout
+ls
+mkdir adrian
+ls
+cd adrian
+ls
+cd 0x00-hello_world
+cd
+cd 0x00-hello_world
+ls
+cd
+git init
+ls
+git init
+ls
+git commit -m "firstcommit"
+git status
+git add -A
+git status
+git commit -m "firscommit"
+git push -u origin master 
+ls
+exit
