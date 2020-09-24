@@ -1617,3 +1617,321 @@ ls
 clear
 ls
 exit
+ls
+cd  0x02-functions_nested_loops
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 1-alphabet.c
+ls
+cd
+git add -A
+git push -u origin master
+ls
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+chmod u+x 1-alphabet.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master 
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 1-alphabet.c
+ls
+cd
+git -A
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 1-alphabet.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs holberton.h
+ks
+ls
+clear
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs holberton.h
+ks
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+cd  0x02-functions_nested_loops
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 1-alphabet.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 1-alphabet.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs holberton.h
+ls
+emacs 2-print_alphabet_x10.c
+ls
+chmod u+x 2-print_alphabet_x10.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 3-islower.c
+ls
+chmod u+x 3-islower.c
+ls
+emacs holberton.h
+ks
+ls
+emacs 3-islower.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 4-isalpha.c
+ls
+chmod u+x 4-isalpha.c
+ls
+ls 
+emacs 5-sign.c
+ls
+chmod u+x 5-sign.c
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs holberton.h
+ls
+emacs 5-sign.c
+ks
+ls
+emacs 5-sign.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 5-sign.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs holberton.h
+ls
+cd
+git status
+ls
+cd 0x02-functions_nested_loops
+ls
+rm 5-sign.c
+ls
+emacs 5-sign.c
+ls
+rm -r #5-sign.c#
+ls
+emacs 5-sign.c
+ks
+ls
+chmod u+x 5-sign.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 6-abs.c
+ls
+chmod u+x 6-abs.c
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 7-print_last_digit.c
+ls
+chmod u+x 7-print_last_digit.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 8-24_hours.c
+ls
+chmod u+x 8-24_hours.c
+ls
+emacs holberton.h
+ls
+cd
+ls
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs 8-24_hours.c
+ks
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs void times_table(void);
+emacs 9-times_table.c
+ls
+chmod u+x 9-times_table.c
+ls
+emacs holberton.h
+ls
+emacs 10-add.c
+ls
+chmod u+x 10-add.c
+emacs holberton.h
+emacs 11-print_to_98.c
+ls
+emacs 11-print_to_98.c
+ls
+emacs holberton.h
+ls
+cd
+ls
+cd 0x02-functions_nested_loops
+ls
+chmod u+x 11-print_to_98.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+cd
+exit
+logout
+ls
+emacs adrian.c
+gcc adrian.c
+ls
+./ a.out
+./a.out
+ls
+emacs andrew.c
+cd
+ecit
+exit
+clear
+vragrant up
+vagrant up
+ls
+cd
+ls
+exit
+logout
