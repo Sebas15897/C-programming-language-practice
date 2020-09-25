@@ -1,115 +1,3 @@
-git init
-ls
-cd 0x01-shell_permissions
-ls
-emacs 100-Star_Wars
-ls
-chmod u+x 100-Star_Wars
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x01-shell_permissions
-ls
-emacs 100-Star_Wars
-ls
-wc -l 100-Star_Wars
-cd
-git add -A
-ls
-git commit -m "first commit"
-ls
-git push -u origin master
-ls
-cd 0x01-shell_permissions
-ls
-emacs 101-man_holberton
-ls
-chmod u+x 101-man_holberton
-ls
-cd
-git add -A
-ls
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x01-shell_permissions
-ls
-emacs 101-man_holberton
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x01-shell_permissions
-ls
-emacs 101-man_holberton
-cd
-git add -A
-git commit -m "firstcommit"
-ls
-cd 0x01-shell_permissions
-ls
-emacs 101-man_holberton
-cd
-git add -A
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x01-shell_permissions
-ls
-101-man_holberton
-emacs 101-man_holberton
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x01-shell_permissions
-ls
-emacs 101-man_holberton
-cd
-close
-exit
-logout
-ls
-mkdir 0x02-shell_redirections
-ls
-cd 0x02-shell_redirections
-ls
-emacs 0-hello_world
-ls
-chmod u+x 0-hello_world
-ls
-emacs 0-hello_world
-wc -l 0-hello_world
-cd
-ls
-cd 0x02-shell_redirections
-ls
-rm 0-hello_world~
-ls
-emacs 1-confused_smiley
-ls
-chmod x+u 1-confused_smiley
-chmod u+x 1-confused_smiley
-ls
-wc -l 1-confused_smiley
-cd
-ls
-cd 0x02-shell_redirections
-ls
-emacs 2-hellofile
-ls
-chmod u+x 2-hellofile
-ls
-wc -l 2-hellofile
-cd -
 ls
 cd 0x02-shell_redirections
 ls
@@ -1957,3 +1845,156 @@ git commit -m "firscommit"
 git push -u origin master 
 ls
 exit
+ls
+rm adrian.c
+ls
+rm a.out
+ls
+mkdir 0x04-more_functions_nested_loops
+ls
+cd 0x04-more_functions_nested_loops
+emacs 0-isupper.c
+ls
+cd
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs holberton.h
+ls
+cd
+ls
+cd 0x04-more_functions_nested_loops
+ls
+chmod u+x 0-isupper.c
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs README.md
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs holberton.h
+ls
+emacs 1-isdigit.c
+ks
+l
+ls
+clearl
+clear
+ls
+emacs 1-isdigit.c
+ls
+rm 1-isdigit.c~
+ls
+chmod u+x 1-isdigit.c
+ls
+emacs holberton.h
+ls
+emacs 2-mul.c
+ls
+chmod u+x 2-mul.c
+ls
+emacs 3-print_numbers.c
+ls
+chmod u+x 3-print_numbers.c
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 3-print_numbers.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs holberton.h
+ls
+emacs 4-print_most_numbers.c
+ls
+chmod u+x 4-print_most_numbers.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 3-print_numbers.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 3-print_numbers.c
+ls
+cd
+git add -A
+git commit -m "fistcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+rm -r 3-print_numbers.c
+ls
+rm -r 4-print_most_numbers.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 3-print_numbers.c
+ls
+chmod u+x 3-print_numbers.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git add -A
+git status
+git push -u origin master
+git push
+git push -u origin master
+ls
+cd
+ls
+git remote remove origin
+ls
+git remote add origin https://github.com/Sebas15897/holbertonschool-low_level_programming.git
+ls
+git status
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd
+exit
+logout
