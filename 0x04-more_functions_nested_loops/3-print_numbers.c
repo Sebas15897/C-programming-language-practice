@@ -1,22 +1,16 @@
 #include "holberton.h"
 
 /**
- * print_most_numbers - print most of the digits
- * Return: Always 0
+ * print_numbers - prints numbers between 0 to 9.
+ * Return: no return.
  */
-
-void print_most_numbers(void)
+void print_numbers(void)
 {
+int ch;
 
-int a;
-
-for (a = '0'; a <= '9'; a++)
+for (ch = 48; ch < 58; ch++)
 {
-if (a == '2' || a == '4')
-{
-++a;
-}
-_putchar(a);
+_putchar(ch);
 }
 _putchar('\n');
 }
