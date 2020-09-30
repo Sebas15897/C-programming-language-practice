@@ -1,251 +1,3 @@
-ls
-cd 0x02-shell_redirections
-ls
-emacs 3-twofiles
-ls
-chmod u+x 3-twofiles
-ls
-wc -l 3-twofiles
-cd --
-ls
-cd 0x02-shell_redirections
-ls
-emacs 4-lastlines
-ls
-chmod u+x 4-lastlines
-ls
-wc -l 4-lastlines
-emacs 4-lastlines
-wc -l 4-lastlines
-ecit
-cd
-exit
-logout
-ls
-0x02-shell_redirections
-cd 0x02-shell_redirections
-ls
-emacs 0-hello_world
-ls
-rm 4-lastlines~
-ls
-cd
-ls
-rm -r #cambiarusuario.sh#
-su rm -r #cambiarusuario.sh#
-ls
-sudo rm -r #cambiarusuario.sh#
-l
-cd
-clear
-git add -A
-ls
-git status
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x02-shell_redirections
-ls
-rm 0-hello_world~
-ls
-emacs 0-hello_world
-ls
-wc -l 0-hello_world
-emacs 0-hello_world
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x02-shell_redirections
-ls
-emacs README.md
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x02-shell_redirections
-ls
-emacs 0-hello_world
-ls
-wc -l 0-hello_world
-ls
-cd
-git add -A
-git commit -m "firstcommit" 
-git push -u origin master
-ls
-cd 0x02-shell_redirections
-ls
-emacs 1-confused_smiley
-wc -l 1-confused_smiley
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x02-shell_redirections
-ls
-emacs 1-confused_smiley
-ls
-emacs 1-confused_smiley
-wc -l 1-confused_smiley
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x02-shell_redirections
-ls
-emacs 2-hellofile
-cd
-ls
-cd
-clear
-ls
-cd 0x02-shell_redirections
-ls
-emacs 4-lastlines
-ls
-emacs 5-firstlines
-ls
-chmod u+x 5-firstlines
-ls
-wc -l 5-firstlines
-ls
-emacs 5-firstlines
-wc -l 5-firstlines
-cd
-git add -A
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x02-shell_redirections
-ls
-emacs 5-firstlines
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x02-shell_redirections
-ls
-rm 5-firstlines~
-ls
-emacs 5-firstlines
-ls
-wc -l 5-firstlines
-cd
-git commit -m "firscommit"
-git add -A
-git status
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x02-shell_redirections 
-ls
-emacs 6-third_line
-ls
-chmod u+x 6-third_line
-ls
-wc -l 6-third_line
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x02-shell_redirections
-ls
-emacs 7-file
-ls
-chmod u+x 7-file
-wc -l 7-file
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x02-shell_redirections
-ls
-emacs 8-cwd_state
-chmod u+x 8-cwd_state
-ls
-wc -l 8-cwd_state
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-rmdir -r #cambiarusuario.sh#
-sudo rmdir #cambiarusuario.sh#
-cd #cambiarusuario.sh#
-ls
-cd #cambiarusuario.sh#
-ls
-l
-less #cambiarusuario.sh#
-sudo less #cambiarusuario.sh#
-clear
-ls
-cd 0x02-shell_redirections
-ls
-emacs 9-duplicate_last_line
-ls
-chmod u+x 9-duplicate_last_line
-ls
-cd
-ls
-cd 0x02-shell_redirections 
-ls
-emacs 10-no_more_js
-ls
-chmod u+x 10-no_more_js
-ls
-wc -l 10-no_more_js
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-clear
-ls
-git status
-git push 
-git push origin
-git pull 
-git pull origin master
-ls
-clear
-git status
-git push -u origin master
-ls
-cd 0x00-shell_redirections
-cd 0x02-shell_directions
-cd 0x02-shell_redirections
-ls
-cleart
-clear
-ls
-emacs 11-directories
-ls
-chmod u+x 11-directories
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x02-shell_redirections
-ls
-wc -l 11-directories
 emacs 11-directories
 ls
 cd
@@ -1998,3 +1750,251 @@ ls
 cd
 exit
 logout
+clear
+ls
+git push -u origin
+git pull
+git pull 
+ls
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git pull origin
+git pull origin master
+ls
+git status
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 3-print_numbers.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs holberton.h
+ls
+cd
+git add -A 
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs  3-print_numbers.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 3-print_numbers.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+rm 3-print_numbers.c
+ls
+emacs 3-print_numbers.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 4-print_most_numbers.c
+ls
+chmod u+x 4-print_most_numbers.c
+chmod u+x 3-print_numbers.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git pull origin master
+ls
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 5-more_numbers.c
+ls
+chmod u+x 5-more_numbers.c
+ls
+cd
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs holberton.h
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 5-more_numbers.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 5-more_numbers.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 6-print_line.c
+ls
+chmod u+x 6-print_line.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 6-print_line.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 7-print_diagonal.c
+ls
+chmod u+x 7-print_diagonal.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 7-print_diagonal.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 8-print_square.c
+ls
+chmod u+x 8-print_square.c
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+logout 
+ls
+cd 0x02-shell_redirections
+ls
+emacs 103-the_biggest_fan
+ls
+chmod u+x 103-the_biggest_fan
+l
+ls
+clear
+ls
+emacs practica
+ls
+chmod u+x practica
+ls
+cd
+ls
+cd 0x02-functions_nested_loops
+ls
+emacs alphabbbet
+ls
+emacs practica.c
+ls
+emacs practica2.c
+ls
+emacs practica.c
+ls
+emacs practica2.c
+cd
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 8-print_base16.c
+ls
+cd
+ls
+cd 0x00-shell_basics
+ls
+emacs practica
+ls
+chmod u+x practica
+ls
+ls -a
+ls -A
+emacs practica
+ls -a
+emacs practica 3
+ls
+emacs practica3
+sort | uniq -u 
+ls
+emacs practica3
+ls
+rm -r #practica3#
+ls
+sudo rm #practica3#
+sudo su rm -m #practica3# 
+sudo su
+ls
+rm practica
+ls
+rm 3
+ls
+cd
+ls -l
+exit
