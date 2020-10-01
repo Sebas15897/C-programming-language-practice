@@ -16,4 +16,8 @@ for (ch = 'a'; ch <= 'f'; ch++)
 putchar(ch);
 putchar('\n');
 return (0);
+<<<<<<< HEAD
 }
+=======
+ }
+>>>>>>> 903de5e76a00e0adf8218b929c786851db4b3957

@@ -23,7 +23,11 @@ _putchar(a);
 _putchar(b);
 _putchar(58);
 _putchar(c);
+<<<<<<< HEAD
 _putchar(d);
+=======
+ _putchar(d);
+>>>>>>> 903de5e76a00e0adf8218b929c786851db4b3957
 _putchar('\n');
 }
 }

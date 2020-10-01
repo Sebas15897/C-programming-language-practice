@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 #ifndef _holbertonh
 #define _holbertonh
 
 int _putchar(char);
+=======
+int _putchar(char);
+#ifndef _holbertonh
+#define _holbertonh
+>>>>>>> 903de5e76a00e0adf8218b929c786851db4b3957
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
@@ -13,5 +19,8 @@ void jack_bauer(void);
 void times_table(void);
 int add(int, int);
 void print_to_98(int n);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 903de5e76a00e0adf8218b929c786851db4b3957
 #endif

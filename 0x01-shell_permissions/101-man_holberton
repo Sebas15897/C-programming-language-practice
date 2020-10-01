@@ -1,4 +1,5 @@
 #!/bin/bash
+<<<<<<< HEAD
 telnet towel.blinkenlights.nl
 17
 .TH man 2 "10 December 1945" "0.32" "eniac man page"
@@ -19,3 +20,20 @@ No known bugs.
 .SH AUTHOR
 University of Pennsylvania.
 18
+=======
+man(2) eniac man page
+NAME
+eniac - the first electronic general-purpose digital computer.
+SYNOPSIS
+eniac
+DESCRIPTION
+Eniac was Turing-complete, and able to solve "a large of numerical problems"through reprograming.
+OPTIONS
+eniac does not take any options
+SEE ALSO
+ENIAC could be programed to perfom complex sequences of operations(2), including loops(2),branches(2), and subroutines(2).
+BUGS
+NO Known bugs.
+AUTHOR
+University of Pennylvania
+>>>>>>> 903de5e76a00e0adf8218b929c786851db4b3957

@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 find * -type d | wc -l 
+=======
+find * -type d | wc -l
+>>>>>>> 903de5e76a00e0adf8218b929c786851db4b3957
