@@ -1,88 +1,3 @@
-echo *S
-echo *s
-echo [[:upper:]]*
-echo /usr/*/share
-echo ~
-echo ~foo
-ls
-echo $((2 + 2))
-echo $((2 x 2))
-echo $((2 * 2))
-echo $(($((5**2)) * 3))
-echo Front-{A,B,C}-Back
-echo {Z..A}
-echo {a..z}
-echo $USER
-printenv | less
-echo $SUER
-echo $(ls)
-ls -l $(which cp)
-file $(ls /usr/bin/* | grep bin/zip)
-echo this is a     test
-this is a test
-[me@linuxbox ~]$ echo The total is $100.00
-echo "$USER $((2+2)) $(cal)"
-cal
-date
-cal
-echo "The balance for user $USER is: \$5.00"
-echo "The balance for user $USER is: \$5.000000"
-ls -l \ --reverse \ --human-legible \ --en tiempo completo
-\a
-\\
-\F
-\a a
-echo -e "Inserting several blank lines\n\n\n"
-echo -e "Words\tseparated\tby\thorizontal\ttabs."
-DEL C:\WIN2K\LEGACY_OS.EXE
-printenv
-diff set.sorted  printenv.sorted | grep "<" | awk '{imprimir $ 2}'
-prompt>  exportar 1number = 1
-MYVAR1 = "2"
-HOGAR
-cd
-cd HOGAR
-CD HOME
-cd HOME
-cd home
-cd mail
-mail
-home
-mail
-cd home
-mail 
---login
-echo "hello $USER"
-echo "hello $USER*"
-echo "hello $USER"
-ls
-mkdir 0x03-shell_variables_expansions
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs README.md
-ls
-emacs 0-alias
-ls
-rmdir #0-alias#
-ls
-emacs 0-alias
-ls
-emacs 0-alias
-ls
-chmod u+x 0-alias
-ls
-wc -l 0-alias
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs 1-hello_you
-ls
 chmod u+x 1-hello_you
 ls
 wc -l 1-hello_you
@@ -1997,4 +1912,89 @@ git push -u origin master
 ls
 cd 0x05-pointers_arrays_strings
 ls
+exit
+ls
+git remote remove origin
+ls
+git remote add origin https://github.com/adrian-blip/holbertonschool-low_level_programming.git
+ls
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git pull
+git pull origin master
+ls
+git remote remove origin
+git remote remove origin 
+ls
+git pull origin master
+git remote add origin https://github.com/Sebas15897/holbertonschool-low_level_programming.git
+git status
+ls
+cd .gitconfig
+emacs .gitconfig
+ls
+git status
+emacs -gitconfig
+ls
+git status
+ls
+.gitconfig
+emacs .gitconfig
+ls
+git add
+git add -A
+git commit -m "firstcommit"
+git config --global user.email "sebastiancontreras15897@gmail.com"
+git config --global user.name "Sebas15897"
+git push -u origin master
+git remote -v
+git remote remove origin
+git remote -v
+git remote add origin https://github.com/Sebas15897/holbertonschool-low_level_programming.git
+ls
+cd
+clear
+ls
+cd 0x05-pointers_arrays_strings
+ls
+emacs 3-puts.c
+ls
+emacs holberton.h
+ls
+emacs 3-puts.c
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git pull origin master
+ls
+git push -u origin master
+ls
+cd 0x05-pointers_arrays_strings
+ls
+emacs holberton.h
+ls
+cd
+ls
+cd  0x05-pointers_arrays_strings
+ls
+emacs 4-print_rev.c
+cd
+ls
+pwd
+ll 
+emacs .emacs
+ls
+cd
+ls
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x05-pointers_arrays_strings
+ls
+emacs 5-rev_string.c
+ls
+cd
 exit

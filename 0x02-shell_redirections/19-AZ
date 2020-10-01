@@ -1,6 +1,0 @@
-#!/bin/bash
-<<<<<<< HEAD
-tr A Z | tr c e 
-=======
-tr 'Ac' 'Ze'
->>>>>>> 903de5e76a00e0adf8218b929c786851db4b3957
