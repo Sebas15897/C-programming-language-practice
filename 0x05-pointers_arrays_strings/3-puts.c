@@ -1,18 +1,19 @@
 #include "holberton.h"
 
 /**
- * _puts - put a string
- * @str: array of chars
+ * _puts - Escribir un texto
+ *
+ * @str: This is my entry
+ *
  */
 
 void _puts(char *str)
 {
-	int i = 0;
+	int a;
 
-	while (str[i] != '\0')
+	for (a = 0; str[a] != '\0'; a++)
 	{
-		_putchar(str[i]);
-		i++;
+		_putchar(str[a]);
 	}
 	_putchar('\n');
 }
