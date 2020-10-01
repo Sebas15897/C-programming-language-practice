@@ -1,113 +1,3 @@
-emacs 11-directories
-ls
-cd
-git add -A
-git commit "firstcommit"
-git commit -m "firstcommit"
-git push -u origin master
-clear
-ls
-cd 0x02-shell_redirections
-ls
-emacs 11-directories 
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x02-shell_redirections 
-ls
-emacs ls -t | head -10
-emacs 12-newest_files
-ls
-chmod u+x 12-newest_files
-wc -l 12-newest_files
-ls
-clear
-cd
-git add -A
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x00-shell_redirections
-cd 0x02-shell_redirections
-ls
-emacs 13-unique
-ls
-cd
-ls
-cd 0x02-shell_redirections
-ls
-emacs 14-findthatword
-ls
-chmod u+x 13-unique
-chmod u+x 14-findthatword
-ls
-emacs 16-whatsnext
-ls
-emacs 17-hidethisword
-ls
-chmod u+x 16-whatsnext
-chmod 17-hidethisword
-chmod u+x 17-hidethisword
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x02-shell_redirections
-ls
-emacs 15-countthatword
-ls
-chmod u+x #!/bin/bash
-chmod u+x 15-countthatword
-ls
-cleart
-clear
-ls
-emacs 18-letteronly
-ls
-chmod u+x 18-letteronly
-ls
-l
-ls
-clear
-ls
-emacs 19-AZ
-ls
-chmod u+x 19-AZ
-ls
-emacs 20-hiago
-ls
-chmod u+x 20-hiago
-ls
-emacs 21-reverse
-ls
-chmod u+x 21-reverse
-ls
-emacs 22-users_and_homes
-ls
-chmod u+x 22-users_and_homes
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-cd
-logut
-exit
-logout
-ls
-clear
-ls
-echo *
-pwd
-echo *
-ls
-echo D*
 echo *S
 echo *s
 echo [[:upper:]]*
@@ -1997,4 +1887,114 @@ rm 3
 ls
 cd
 ls -l
+exit
+ls
+mkdir 0x05-pointers_arrays_strings
+ñs
+ls
+cd 0x05-pointers_arrays_strings
+ls
+emacs README.md
+ls
+emacs holberton.h
+ls
+emacs 0-reset_to_98.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git -u origin master
+git push -u origin master
+ls
+cd 0x05-pointers_arrays_strings
+ls
+emacs 1-swap.c
+ls
+emacs 2-strlen.c
+ls
+emacs 3-puts.c
+ls
+emacs 4-print_rev.c
+ls
+c
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x05-pointers_arrays_strings
+ls
+emacs 3-puts.c
+ls
+c
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x05-pointers_arrays_strings
+ls
+emacs holberton.h
+ls
+rm 3-puts.c
+ls
+emacs 3-puts.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x05-pointers_arrays_strings
+emacs 3-puts.c
+ls
+rm 3-puts.c
+emacs 3-main.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x05-pointers_arrays_strings
+ls
+emacs 3-puts.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x05-pointers_arrays_strings
+ls
+emacs 3-puts.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x05-pointers_arrays_strings
+ls
+rm 3-main.c
+rm 3-puts.c
+ls
+emacs 3-puts.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x05-pointers_arrays_strings
+ls
+emacs 3-puts.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x05-pointers_arrays_strings
+ls
 exit
