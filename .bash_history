@@ -1,196 +1,3 @@
-chmod u+x 1-hello_you
-ls
-wc -l 1-hello_you
-cd
-ls
-cd 0x03-shell_variables_expansions
-emacs 2-path
-ls
-emacs 2-path
-ls
-rm 2-path~
-chmod u+x 2-path
-wc -l 2-path
-emacs 2-path
-wc -l 2-path
-cd
-git
-git status
-git add -A
-git status -m "firstcommit"
-git commit -m "firstcommit"
-git push -origin master
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs 3-paths
-ls
-chmod u+x 3-paths
-ls
-cd
-git add -A
-ls
-echo $PATH | tr ":" "\n" | wc -l
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-ls
-rm 2-path~
-ls
-emacs 4-global_variables
-ls
-chmod u+x printenv
-chmod u+x 4-global_variables
-ls
-cd
-git add -A
-git commit "firstcommit"
-git commit -m "firstcommit"
-push -u origin master
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs 5-local_variables
-ls
-chmod u+x 5-local_variables
-ls
-wc -l 5-local_variables
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-ñs
-ls
-emacs 6-create_local_variable
-ls
-chmod u+x 6-create_local_variable
-ls
-cd
-ls
-cd 0x03-shell_variables_expansions
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-emacs 7-create_global_variable
-ls
-chmod u+x 7-create_global_variable
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs 8-true_knowledge
-ls
-cd
-ls
-cd 0x03-shell_variables_expansions
-ls
-chmod u+x 8-true_knowledge
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-ls
-9-divide_and_rule
-ls
-emacs 9-divide_and_rule
-ls
-chmod u+x 9-divide_and_rule
-ls
-cd
-git add -A
-ls
-git commit -m "firtscommit" 
-git push -u origin master
-ls
-cd
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs 9-divide_and_rule
-cd
-git add -A
-ls
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs 9-divide_and_rule
-ls
-cd
-git add -a
-git add -A
-ls
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs 9-divide_and_rule
-ls
-emacs 9-divide_and_rule
-ls
-wc -9-divide_and_rule
-wc -l 9-divide_and_rule
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs 10-love_exponent_breath
-ls
-chmod u+x 10-love_exponent_breath
-ls
-cd
-git add -A
-git commit -m "first commit"
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs 11-binary_to_decimal
-ls
-chmod u+x 11-binary_to_decimal
-ls
-cd
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs 11-binary_to_decimal
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-ls
-rm 11-binary_to_decimal~
-ls
-wc -l 11-binary_to_decimal
-emacs 11-binary_to_decimal
-ls
-cd
 git add -A
 git commit -m "firstcommit"
 git push -u origin master
@@ -1997,4 +1804,197 @@ ls
 emacs 5-rev_string.c
 ls
 cd
+exit
+ls
+mkdir 0x06-pointers_arrays_strings
+ls
+cd 0x06-pointers_arrays_strings
+ls
+emacs 0x00-hello_world
+ls
+cd
+ls
+cd 0x00-hello_world
+ls
+emacs 1-compiler
+ls
+emacs 3-name
+ls
+emacs 2-assembler
+ls
+emacs 1-compiler
+ls
+emacs 0-preprocessor
+ls
+emacs 4-puts.c
+ls
+emacs 5-printf.c
+ls
+emacs 6-size.c
+ls
+cd
+ls
+cd 0x00-shell_basics
+ls
+emacs 1-listit
+ls
+emacs 1-listit
+ls
+emacs 0-current_working_directory
+ls
+emacs 2-bring_me_home
+ls
+emacs 3-listfiles
+ls
+emacs 4-listmorefiles
+ls
+emacs 5-listfilesdigitonly
+ls
+emacs 6-firstdirectory
+ls
+emacs 7-movethatfile
+ls
+emacs 8-firstdelete
+ls
+emacs 9-firstdirdeletion
+ls
+emacs 10-back
+ls
+emacs 12-file_type
+ls
+emacs 13-symbolic_link
+ls
+emacs 14-copy_html
+ls
+emacs 15-lets_move
+ls
+emacs 16-clean_emacs
+ls
+emacs 17-tree
+ls
+emacs 18-commas
+ls
+cd
+ls
+cd 0x01-shell_permissions
+ls
+emacs 0-iam_betty
+ls
+emacs 1-who_am_i
+ls
+emacs 2-groups
+ls
+emacs 3-new_owner
+ls
+emacs 4-empty
+ls
+emacs 5-execute
+ls
+emacs 6-multiple_permissions
+ls
+emacs 7-everybody
+ls
+emacs 8-James_Bond
+ls
+emacs 9-John_Doe
+ls
+emacs 10-mirror_permissions
+ls
+emacs 11-directories_permissions
+ls
+emacs 12-directory_permissions
+ls
+emacs 14-change_owner_and_group
+ls
+emacs 15-symbolic_link_permissions
+ls
+emacs 16-if_only
+ls
+emacs 16-if_onl
+ls
+emacs 16-if_only
+ls
+emacs 100-Star_Wars
+ls
+emacs 101-man_holberton
+ls
+cd
+ls
+rm 0x00-shell_basics
+rmdir 0x00-shell_basics
+rm -r 0x00-shell_basics
+ls
+rm -r 0x01-shell_permissions
+ls
+rm -r  0x02-shell_redirections
+ls
+rm -r0x03-shell_variables_expansions
+rm -r 0x03-shell_variables_expansions
+ls
+cleat
+clear
+ls
+rm -r adrian
+sudo su
+ls
+emacs 0x01-variables_if_else_while
+ls
+cd 0x01-variables_if_else_while
+ls
+emacs 0-positive_or_negative.c
+ls
+emacs 1-last_digit.c
+ls
+emacs 2-print_alphabet.c
+ls
+emacs 3-print_alphabets.c
+ls
+emacs 4-print_alphabt.c
+ls
+emacs 5-print_numbers.c
+ls
+emacs 6-print_numberz.c
+emacs 7-print_tebahpla.c
+emacs 8-print_base16.c
+ls
+cd
+ls
+cd 0x02-functions_nested_loops
+ñs
+ls
+emacs 1-alphabet.c
+emacs 2-print_alphabet_x10.c
+emacs 3-islower.c
+ls
+emacs 4-isalpha.c
+emacs 5-sign.c
+emacs 6-abs.c
+emacs 7-print_last_digit.c
+emacs 8-24_hours.c
+ls
+emacs 8-24_hours.c
+ls
+emacs 8-24_hours.c
+ls
+emacs 9-times_table.c
+ls
+cd
+ls
+cd 0x04-more_functions_nested_loops
+ls
+emacs 0-isupper.c
+ce
+git add -A
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git pull origin master
+git push -u origin master
+git pull origin
+git commit -a
+ls
+git push -u origin master
+clear
+ls
 exit
