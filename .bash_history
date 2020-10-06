@@ -1,36 +1,3 @@
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd  0x03-shell_variables_expansions
-ls
-emacs 12-combinations
-ls
-chmod u+x 12-combinations
-ls
-wc -l 12-combinations
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs 13-print_float
-ls
-emacs 14-decimal_to_hexadecimal
-ls
-chmod u+x 13-print_float
-ls
-chmod 14-decimal_to_hexadecimal
-chmod u+x 14-decimal_to_hexadecimal
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls *.c
-ls
 cd 0x03-shell_variables_expansions
 ls
 ls *.c 6-create_local_variable
@@ -1997,4 +1964,37 @@ ls
 git push -u origin master
 clear
 ls
+exit
+ls
+cd 0x06-pointers_arrays_strings
+ls
+emacs README.md
+ls
+emacs holberton.h
+ks
+ls
+emacs 0-strcat.c
+ls
+emacs 1-strncat.c
+ls
+emacs 2-strncpy.c
+ls
+emacs 2-strncpy.c
+ls
+emacs 3-strcmp.c
+ls
+emacs 4-rev_array.c
+ls
+emacs 5-string_toupper.c
+ls
+emacs 6-cap_string.c
+ls
+emacs 7-leet.c
+ls
+emacs 8-rot13.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
 exit
