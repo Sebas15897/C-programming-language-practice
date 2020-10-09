@@ -1,0 +1,7 @@
+int *p = NULL;
+{
+     int a;
+     p = &a; // as soon as 'a' goes out of scope,'p' is pointing to invalid location
+}
+
+*p = 0;

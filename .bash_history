@@ -1,77 +1,3 @@
-cd 0x03-shell_variables_expansions
-ls
-ls *.c 6-create_local_variable
-cd
-ls *c
-ls
-cd
-mkdir LinkedLn
-ls
-cd LinkedLn
-ls
-touch prueba.c
-touch Prueba.c
-touch prueba2.c
-touch prueba3.c
-touch prueba4.b
-tocuh prueba5.b
-touch prueba.b
-ls
-prueba5.a
-touch prueba6.a
-ls
-clear
-ls
-ls *.c
-ls
-cd
-ls
-rmdir -r #!/bin/bash
-printf "%.2f\n" $NUM
-cleart
-clear
-ls
-rmdir -r LinkedLn
-ls
-rm LinkedLn
-rmdir LinkedLn
-rm -r LinkedLn
-ls
-clear
-ls
-cd 0x03-shell_variables_expansions
-ls
-emacs 13-print_float
-ls
-wc -l 13-print_float
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-exit
-logout
-help
-ls -la 
-ls -la A
-ls -la B
-ls -la C
-ls -la /
-ls
-ls -la R
-ls -la -R
-cd
-ls
-ls -la -R
-cd
-ls
-echo 0x02-shell_redirections
-echo , 0x02-shell_redirections
-ls -la
-exit
-ls
-git init
-ls
-git clone https://github.com/holbertonschool/Betty.git
 ls
 cd Betty
 ls
@@ -1997,4 +1923,78 @@ cd
 git add -A
 git commit -m "firstcommit"
 git push -u origin master
+exit
+ls
+mkdir 0x07-pointers_arrays_strings
+ls
+cd 0x07-pointers_arrays_strings
+ls
+emacs README.md
+ls
+emacs holberton.h
+ls
+emacs 0-memset.c
+ls
+emacs 1-memcpy.c
+ls
+emacs 2-strchr.c
+ls
+emacs 3-strspn.c
+ls
+emacs 4-strpbrk.c
+ls
+emacs 5-strstr.c
+ls
+emacs 7-print_chessboard.c
+ls
+emacs 8-print_diagsums.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x07-pointers_arrays_strings
+ls
+cd
+exit
+ls
+emacs practica
+ls
+emacs practica.c
+exit
+ls
+mkdir practicas
+cd practicas
+ls
+emacs practica.c
+ls
+gcc practica.c 
+emacs practica.c
+ls
+gcc practica.c 
+ls
+emacs practica.c
+ls
+gcc practica.c
+gcc a
+gcc a.out 
+emacs a.out
+ls
+gcc practica.c
+ls
+emacs a.out
+ls
+a.out
+star a.out
+ls
+gcc a.out
+ls
+emacs practica.c
+ls
+gcc practica.c
+ls
+gcc a-out
+ls
+clear
 exit
