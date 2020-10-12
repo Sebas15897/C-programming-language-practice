@@ -1,47 +1,3 @@
-ls
-cd Betty
-ls
-sudo ./install.sh
-emacs betty
-ls
-chmod a+x betty
-ls
-sudo mv betty /bin
-ls
-cd
-ls
-cd /bin
-ls
-cd
-echo "# holbertonschool-low_level_programming" >> README.md
-git init
-git remote add origin https://github.com/Sebas15897/holbertonschool-low_level_programming.git
-git remote -v
-git remote remove origin 
-ls
-git remote -v
-ls
-git remote -v
-ls
-cd
-git remote add origin https://github.com/Sebas15897/holbertonschool-low_level_programming.git
-ls
-git remote -v
-cd
-ls
-clear
-ls
-mkdir 0x00-hello_world
-ls
-cd 0x00-hello_world
-ls
-emacs 0-preprocessor
-ls
-chmod u+x 0-preprocessor
-ls
-cd
-git add -A
-ls
 git commit -m "firstcommit"
 ls
 git push -u origin master
@@ -1997,4 +1953,48 @@ ls
 gcc a-out
 ls
 clear
+exit
+ls
+mkdir 0x08-recursion
+ls
+cd 0x08-recursion
+ls
+emacs 0-puts_recursion.c
+ls
+emacs 1-print_rev_recursion.c
+ls
+emacs 2-strlen_recursion.c
+ls
+emacs 2-strlen_recursion.c
+ls
+emacs 3-factorial.c
+ls
+emacs 4-pow_recursion.c
+ls
+emacs 5-sqrt_recursion.c
+ls
+emacs 6-is_prime_number.c
+ls
+emacs 7-is_palindrome.c
+ls
+emacs README.md
+ls
+emacs holberton.h
+ls
+emacs holberton.h
+ls
+cd
+git add -A
+git git commit -m "firstcommit"
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x08-recursion
+ls
+emacs 1-print_rev_recursion.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
 exit
