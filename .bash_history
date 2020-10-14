@@ -1,153 +1,3 @@
-git commit -m "firstcommit"
-ls
-git push -u origin master
-emacs README.md
-ls
-git remote remove origin
-ls
-git remote add origin https://github.com/Sebas15897/holbertonschool-low_level_programming.git
-ls
-cd
-clear
-ls
-git add 0x00-hello_world
-ls
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-wc -l 0-preprocessor
-ls
-emacs README.md
-ls
-c
-cd
-git add -A
-git commit -m "firstcommit" 
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 1-compiler
-ls
-chmod u+x 1-compiler
-ls
-cd
-git add -A
-git commit -m "secondcommit"
-ls
-cd 0x00-hello_world
-ls
-emacs 1-compiler
-ls
-wc -l 1-compiler
-cd
-ls
-git add -A
-git commit -m "secondcommit" 
-c
-ls
-cd 0x00-hello_world
-ls
-emacs 1-compiler
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-cd
-ls
-cd 0x00-hello_world
-ls
-wc -l 1-compiler
-ls
-emacs 1-compiler
-ls
-wc -l 1-compiler
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 1-compiler
-ls
-wc -l 1-compiler
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 2-assembler
-ls
-chmod u+x 2-assembler
-ls
-wc -l 2-assembler
-cd
-git add -A
-git commit -m "firstcommit" 
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 1-compiler
-ls
-emacs 2-assembler
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 1-compiler
-ls
-emacs 2-assembler
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 0-preprocessor
-ls
-wc -l 1-compiler
-ls
-emacs 1-compiler
-ls
-emacs 0-preprocessor
-ls
-cd
-git add -A
-git commit -m "firstcommit" 
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 2-assembler
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 2-assembler
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
 ls
 cd 0x00-hello_world
 ls
@@ -1997,4 +1847,154 @@ cd
 git add -A
 git commit -m "firstcommit"
 git push -u origin master
+exit
+ls
+celar
+c
+clear
+mkdir 0x09-static_libraries
+ls
+cd 0x09-static_libraries
+ls
+emacs libholberton.a
+ls
+rm -r #libholberton.a#
+ls
+sudo su rm -rm #libholberton.a#
+ls
+cd
+ls
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git pull
+ls
+git push -u origin master
+ls
+cd 0x09-static_libraries
+emacs holberton.h
+ls
+emacs create_static_lib.sh
+ls
+emacs README.md
+ls
+emacs 0-isupper.c
+ls
+emacs 0-memset.c
+ls
+emacs 0-strcat.c
+ls
+emacs 1-isdigit.c
+ls
+emacs 1-memcpy.c
+ls
+emacs 100-atoi.c
+ls
+emacs 2-strchr.c
+ls
+emacs 2-strlen.c
+ls
+emacs 2-strncpy.c
+ls
+emacs 3-islower.c
+ls
+emacs 3-puts.c
+ls
+emacs 3-strcmp.c
+ls
+emacs 3-strspn.c
+ls
+emacs 4-isalpha.c
+ls
+emacs 4-strpbrk.c
+ls
+emacs 5-strstr.c
+ls
+emacs 6-abs.c
+ls
+emacs 9-strcpy.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git pull
+git push -u origin master
+git pull 
+git push -u origin master
+ls
+cd 0x09-static_libraries
+ls
+emacs create_static_lib.sh
+ls
+clear
+ls
+clear
+ls
+chmod u+x create_static_lib.sh
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git pull
+git push -u origin master
+git pull origin master
+ls
+mkdir 0x0A-argc_argv
+emacs 0-whatsmyname.c
+ls
+rm -r 0-whatsmyname.c
+ls
+cd 0x0A-argc_argv
+emacs 0-whatsmyname.c
+ls
+emacs 1-args.c
+ls
+emacs 2-args.c
+ls
+emacs   
+ls
+emacs 3-mul.c
+ls
+emacs 4-add.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+ls
+cd 0x0A-argc_argv
+ls
+emacs README.md
+ls
+emacs holberton.h
+ls
+emacs 0-whatsmyname.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git pull origin master
+git push -u origin master
+ls
+cd 0x09-static_libraries
+ls
+emacs 0-isupper.c
+ls
+clear
+ls
+exit
+ls
+mkdir 0x0B-malloc_free
+ls
+cd 0x0B-malloc_free
+ls
+emacs README.md
+ls
+emacs holberton.h
+ls
+emacs holberton.h
+ls
 exit
