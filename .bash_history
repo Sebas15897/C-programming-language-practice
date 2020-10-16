@@ -1,22 +1,4 @@
 ls
-cd 0x00-hello_world
-ls
-emacs 3-name
-ls
-chmod u+x 3-name
-ls
-wc -l 3-name
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 4-puts.c
-ls
-chmod u+x 4-puts.c
-ls
 cd
 git add -A
 git commit -m "firstcommit"
@@ -1997,4 +1979,22 @@ emacs holberton.h
 ls
 emacs holberton.h
 ls
+exit
+ls
+cd 0x0B-malloc_free
+ls
+emacs 2-str_concat.c
+ls
+emacs 3-alloc_grid.c
+ls
+emacs 4-free_grid.c
+ls
+emacs 5-argstostr.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git pull origin master
+git push -u origin master
 exit
