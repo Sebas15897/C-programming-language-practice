@@ -1,18 +1,17 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include "dog.h"
 
 /**
- * free_dog - free the space of a dog structure
- * @d: the dog
+ * main - check the code for Holberton School students.
  *
+ * Return: Always 0.
  */
-
-void free_dog(dog_t *d)
+int main(void)
 {
-	if (d == NULL)
-		return;
-	free(d->owner);
-	free(d->name);
-	free(d);
+    dog_t *my_dog;
 
+    my_dog = new_dog("Django", 3.5, "Bob");
+    printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog->name, my_dog->age);
+    free_dog(my_dog);
+    return (0);
 }
