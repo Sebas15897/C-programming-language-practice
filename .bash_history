@@ -1,28 +1,3 @@
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emcas 4-puts.c
-emacs 4-puts.c
-ls
-cd
-git add -A
-git add commit -m "firstcommit"
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 4-puts.c
-ls
-emacs 4-puts.c
-ls
-emacs 4-puts.c
-ls
 cd
 git add -A
 ls
@@ -1997,4 +1972,29 @@ git commit -m "firstcommit"
 git push -u origin master
 git pull origin master
 git push -u origin master
+exit
+ls
+mkdir 0x0C-more_malloc_free
+ls
+cd 0x0C-more_malloc_free
+ls
+emacs README.md
+ls
+emacs holberton.h
+ls
+emacs 0-malloc_checked.c
+ls
+emacs 1-string_nconcat.c
+ls
+emacs 2-calloc.c
+ls
+rm -r 2-calloc.c~
+ls
+emacs 3-array_range.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+cd
 exit
