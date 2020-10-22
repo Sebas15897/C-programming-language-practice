@@ -1,63 +1,3 @@
-cd
-git add -A
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 4-puts.c
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 4-puts.c
-ls
-emacs 5-printf.c
-ls
-emacs 4-puts.c
-ls
-emacs 5-printf.c
-ls
-rm 5-printf.c~
-ls
-chmod u+x 5-printf.c
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 4-puts.c
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 5-printf.c
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 5-printf.c
-ls
-cd
 git add -A
 git commit -m "firstcommit"
 git push -u origin master
@@ -1997,4 +1937,64 @@ git add -A
 git commit -m "firstcommit"
 git push -u origin master
 cd
+exit
+clea
+clear
+ls
+rm -r #practica#
+rmdir #practica#
+sudo su
+ls
+clear
+ls
+rm -rf #practica#
+ls
+mkdir 0x0D-preprocessor
+l
+ls
+clear
+ls
+cd 0x0D-preprocessor
+ls
+emacs 0-object_like_macro.h
+ls
+emacs 1-pi.h
+ls
+emacs 2-main.c
+ls
+emacs 3-function_like_macro.h
+ls
+emacs 4-sum.h
+ls
+emacs holberton.h
+ls
+emacs README.md
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git pull origin master
+git push -u origin master
+ls
+mkdir 0x0E-structures_typedef
+ls
+cd 0x0E-structures_typedef
+ls
+emacs dog.h
+ls
+emacs README.md
+ls
+emacs 1-init_dog.c
+ls
+emacs 2-print_dog.c
+ls
+emacs 4-new_dog.c
+ls
+emacs 5-free_dog.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
 exit
