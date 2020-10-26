@@ -1,40 +1,3 @@
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 4-puts.c
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-ls
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 4-puts.c
-ls
-cd
-git add -A
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 5-printf.c
-emacs #include <stdio.h>
-emacs 5-printf.c
-ls
-cd
-git add -A 
-git commit -m "firstcommit"
-git push -u origin master
-ls
-cd 0x00-hello_world
-ls
-emacs 5-printf.c
 ls
 cd
 git add -A
@@ -1992,6 +1955,43 @@ ls
 emacs 4-new_dog.c
 ls
 emacs 5-free_dog.c
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+exit
+clear
+ls
+mkdir 0x0F-function_pointers
+cd 0x0F-function_pointers
+ls
+emacs README.md
+ls
+emacs 0-print_name.c
+ls
+emacs 1-array_iterator.c
+ls
+emacs 2-int_index.c
+ls
+emacs 3-get_op_func.c
+ls
+emacs 3-main.c
+ls
+emacs 3-op_functions.c
+ls
+emacs function_pointers.h
+ls
+cd
+git add -A
+git commit -m "firstcommit"
+git push -u origin master
+git pull origin 
+git push -u origin master
+ls
+cd  0x0F-function_pointers
+ls
+emacs 3-calc.h
 ls
 cd
 git add -A
