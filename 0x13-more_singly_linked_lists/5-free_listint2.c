@@ -8,17 +8,17 @@
 
 void free_listint2(listint_t **head)
 {
-listint_t *aux;
-listint_t *aux2;
+	listint_t *aux;
+	listint_t *aux2;
 
-aux2 = *head;
+	aux2 = *head;
 
-while (aux2 != NULL && head != NULL)
-{
-aux = aux2;
-aux2 = aux2->next;
+		while (aux2 != NULL && head != NULL)
+	{
+		aux = aux2;
+		aux2 = aux2->next;
 
-free(aux);
-}
-*head = NULL;
+		free(aux);
+	}
+	*head = NULL;
 }
