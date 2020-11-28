@@ -1,0 +1,15 @@
+#include <stdio.h> 
+  
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
+
+int main() 
+{ 
+   
+char ch = [27];  
+for (ch = '1'; ch <= '9'; ch++) 
+putchar(ch); 
+  
+return (0); 
+} 
