@@ -3,15 +3,22 @@
 #include <time.h>
 
 /**
- * main - Hexadecimal Numbers
+ * main - comma
  * Return: 0 for success
  */
 int main(void)
 {
-char ch = '0';
+int ch;
 
-for (ch = '0'; ch <= '9'; ch++)
-putchar(ch);
+for (ch = 0; ch <= 9; ch++)
+{
+putchar(ch + '0');
+if (ch != 9)
+{
+putchar(44);
+putchar(32);
+}
+}
 putchar('\n');
 return (0);
 }
