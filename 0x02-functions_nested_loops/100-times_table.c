@@ -6,6 +6,7 @@
  *
  * Return: nothing.
  */
+
 void print_times_table(int n)
 {
 int i, j, a, u, d, c;
