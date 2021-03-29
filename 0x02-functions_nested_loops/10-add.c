@@ -8,7 +8,6 @@
  * @b : number two
  * Return: The result
  */
-
 int add(int a, int b)
 {
 int c;
