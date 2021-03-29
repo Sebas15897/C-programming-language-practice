@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - fibonacci numbers.
  * Return: Nothing.
  */
+
 int main(void)
 {
 unsigned long count = 0, i, j, k;
