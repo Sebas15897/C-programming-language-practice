@@ -1,63 +1,33 @@
 #include "search_algos.h"
 /**
- * binary_search - search for a value in a array with o(logn)
- * @array: array
- * @size: size of the array
+ * binary_search - binary search for a value in a sorted array of integers
+ * @array: pointer to the fisrt element of the array to search in
+ * @size: number of elements in the array
  * @value: value to search for
- * Return: index of the value
+ * Return: -1 if value is not present or array is NULL, otherwise the index
  */
 int binary_search(int *array, size_t size, int value)
 {
-	if (!array)
-		return (-1);
-	return (recursive_search(0, size - 1, value, array));
-}
+	int right = size - 1;
+	int left = 0;
+	int mid;
 
-
-/**
- * recursive_search - search by half
- * @start: starting point
- * @end: end point
- * @value: searched_value
- * @array: array array
- * Return: Nothing
- */
-int recursive_search(int start, int end, int value, int *array)
-{
-	int middle = start + (end - start) / 2;
-
-	_print(start, end, array);
-	if (start == end && value != array[middle])
-		return (-1);
-	else if (value > array[middle])
+	if (array)
 	{
-		middle = recursive_search(middle + 1, end, value, array);
+		while (left <= right)
+		{
+			printf("Searching in array: ");
+			for (mid = left; mid < right; mid++)
+				printf("%d, ", array[mid]);
+			printf("%d\n", array[mid]);
+			mid = left + (right - left) / 2;
+			if (array[mid] == value)
+				return (mid);
+			if (array[mid] < value)
+				left = mid + 1;
+			else
+				right = mid - 1;
+		}
 	}
-	else if (value < array[middle])
-	{
-		middle = recursive_search(start, middle - 1, value, array);
-	}
-	return (middle);
-}
-
-
-/**
- * _print - prints every try to find the value
- * @start: starting point
- * @end: end point
- * @array: array array
- * Return: Nothing
- */
-void _print(int start, int end, int *array)
-{
-	int i = 0;
-
-	printf("Searching in array: ");
-	for (i = start; i <= end; i++)
-	{
-		if (i != end)
-			printf("%d, ", array[i]);
-		else
-			printf("%d\n", array[i]);
-	}
+	return (-1);
 }
