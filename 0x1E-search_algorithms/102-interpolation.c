@@ -1,41 +1,37 @@
 #include "search_algos.h"
 
 /**
- * interpolation_search - searches for a value in a sorted array
- * of integers using the interpolation search algorithm
- * @array: the array of integers
- * @size: size of the array
- * @value: the value to look for
- * Return: index where the value is found
+ * interpolation_search - searches for a value in a sorted array of integers
+ * using the Interpolation search algorithm
+ * @array: pointer to the first element of the array to search in
+ * @size: number of elements in array
+ * @value: value to search for
+ *
+ * Return: the first index where value is located, or -1 on failure
  */
 int interpolation_search(int *array, size_t size, int value)
 {
-	size_t mid = 0, left = 0, right = size - 1;
+	size_t l, m, r;
 
-	if (!array)
-		return (-1);
-	while (left <= right)
+	if (array != NULL && size > 0)
 	{
-		mid = left + (((double)(right - left) / (
-				       array[right] - array[left])) * (
-					       value - array[left]));
-		if (mid >= size)
+		l = 0;
+		r = size - 1;
+		while (array[l] != array[r])
 		{
-			printf("Value checked array[%ld] is out of range\n",
-			       mid);
-			return (-1);
-		}
-
-		printf("Value checked array[%ld] = [%d]\n", mid, array[mid]);
-		if (value == array[mid])
-			return (mid);
-		if (value < array[mid])
-		{
-			right = mid - 1;
-		}
-		else
-		{
-			left = mid + 1;
+			m = l + (((double)(r - l) / (array[r] - array[l])) * (value - array[l]));
+			if (m < l || m > r)
+			{
+				printf("Value checked array[%lu] is out of range\n", m);
+				break;
+			}
+			printf("Value checked array[%lu] = [%d]\n", m, array[m]);
+			if (array[m] < value)
+				l = m + 1;
+			else if (array[m] > value)
+				r = m - 1;
+			else
+				return (m);
 		}
 	}
 	return (-1);
