@@ -9,16 +9,16 @@
  */
 void print_array(int *array, size_t size)
 {
-  size_t i;
+	size_t i;
 
-  printf("Searching in array:");
-  for (i = 0; i < size; i++)
-    {
-      printf(" %d", array[i]);
-      if (i != size - 1)
-	printf(",");
-    }
-  printf("\n");
+	printf("Searching in array:");
+	for (i = 0; i < size; i++)
+	{
+		printf(" %d", array[i]);
+		if (i != size - 1)
+			printf(",");
+	}
+	printf("\n");
 }
 
 /**
@@ -32,26 +32,26 @@ void print_array(int *array, size_t size)
  */
 int binary_search(int *array, size_t size, int value)
 {
-  size_t l, m, r;
+	size_t l, m, r;
 
-  if (array != NULL && size > 0)
-    {
-      l = 0;
-      r = size - 1;
-      print_array(array + l, r + 1 - l);
-      while (l < r)
+	if (array != NULL && size > 0)
 	{
-	  m = (l + r) / 2;
-	  if (array[m] < value)
-	    l = m + 1;
-	  else if (array[m] > value)
-	    r = m;
-	  else
-	    return (m);
-	  print_array(array + l, r + 1 - l);
+		l = 0;
+		r = size - 1;
+		print_array(array + l, r + 1 - l);
+		while (l < r)
+		{
+			m = (l + r) / 2;
+			if (array[m] < value)
+				l = m + 1;
+			else if (array[m] > value)
+				r = m;
+			else
+				return (m);
+			print_array(array + l, r + 1 - l);
+		}
 	}
-    }
-  return (-1);
+	return (-1);
 }
 
 /**
@@ -63,9 +63,9 @@ int binary_search(int *array, size_t size, int value)
  */
 size_t minimum_value(size_t a, size_t b)
 {
-  if (b < a)
-    return (b);
-  return (a);
+	if (b < a)
+		return (b);
+	return (a);
 }
 
 /**
@@ -79,22 +79,22 @@ size_t minimum_value(size_t a, size_t b)
  */
 int exponential_search(int *array, size_t size, int value)
 {
-  size_t bound = 1, low;
-  int r;
+	size_t bound = 1, low;
+	int r;
 
-  if (array != NULL && size > 0)
-    {
-      while (bound < size && array[bound] < value)
+	if (array != NULL && size > 0)
 	{
-	  printf("Value checked array[%lu] = [%d]\n", bound, array[bound]);
-	  bound *= 2;
+		while (bound < size && array[bound] < value)
+		{
+			printf("Value checked array[%lu] = [%d]\n", bound, array[bound]);
+			bound *= 2;
+		}
+		low = bound / 2;
+		bound = minimum_value(size - 1, bound);
+		printf("Value found between indexes [%lu] and [%lu]\n", low, bound);
+		r = binary_search(array + low, bound + 1 - low, value);
+		if (r >= 0)
+			return (r + low);
 	}
-      low = bound / 2;
-      bound = minimum_value(size - 1, bound);
-      printf("Value found between indexes [%lu] and [%lu]\n", low, bound);
-      r = binary_search(array + low, bound + 1 - low, value);
-      if (r >= 0)
-	return (r + low);
-    }
-  return (-1);
+	return (-1);
 }
